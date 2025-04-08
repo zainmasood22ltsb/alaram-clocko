@@ -1,0 +1,99 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+    font-size: 16px;
+}
+
+/* Body styling */
+body {
+    background-color: #4a98f7; /* Light blue background */
+    line-height: 1.6; /* Improved readability */
+    padding: 20px; /* Padding around the body */
+    display: flex; /* Flexbox for centering */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Wrapper styling */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Center the content vertically */
+    height: 80vh;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for the image */
+.image {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Styling for the heading */
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Content container styling */
+.content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Styling for columns */
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 80px;
+    margin: 5px 0;
+}
+
+select:focus {
+    outline: none;
+    border-color: #4a98f7;
+}
+
+/* Button styling */
+button {
+    background-color: #4a98f7;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3578e5;
+}
